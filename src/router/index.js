@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import PowerView from "@/views/power-view.vue";
+import Power from "@/views/power";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: "/",
       name: "power",
-      component: PowerView,
+      component: Power,
     },
   ],
 });
